@@ -1,0 +1,18 @@
+version: "2"
+services:
+  app:
+    build: ./src
+    image: zxingnode
+    command: >
+      /bin/bash -c "sleep 5; nodemon server.js;"
+    volumes:
+      - ./src:/app
+    ports:
+      - "53555:3000"
+        #    networks:
+        #- vizarioauth_default
+
+        #networks:
+        #  vizarioauth_default:
+        #    external: true
+

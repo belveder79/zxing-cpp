@@ -1,0 +1,14 @@
+{
+  "name": "zxing-slim",
+  "preferGlobal": false,
+  "version": "0.0.1",
+  "main": "server.js",
+  "dependencies": {
+      "express": "latest",
+      "morgan": "latest",
+      "json-lint": "latest",
+      "nodemon":"latest",
+      "util":"latest"
+  }
+}
+
