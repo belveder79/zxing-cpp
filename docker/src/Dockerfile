@@ -15,4 +15,4 @@ RUN npm install \
  && mv /app/node_modules /node_modules
 COPY . /app
 EXPOSE 3000
-
+CMD ["node","server.js"]
